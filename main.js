@@ -42,12 +42,13 @@ function displayAll() {
   let allname = "";
   for (let i = 0; i < babyData.length; i++) {
     allname += characterallname(babyData[i]);
-    nameCountSpan.innerHTML = allname;
+   
     console.log("Display All");
     // Confirm data load
     console.log(babyData);
     number.innerHTML = i;
   }
+   container.innerHTML = allname;
 }
 
 // Display Names by Gender
